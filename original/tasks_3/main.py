@@ -10,7 +10,7 @@ DEST_DIR = "downloads"
 
 def save_flag(img, filename):
     path = os.path.join(DEST_DIR, filename)
-    # time.sleep(2)
+    time.sleep(2)
     with open(path, "wb") as f:
         f.write(img)
 
